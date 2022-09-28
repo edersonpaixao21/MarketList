@@ -1,0 +1,293 @@
+.money {
+  color: #18AD00;
+}
+
+.quantity {
+  margin-top: 0.1rem;
+  font-size: 1.1rem;
+  color: #fff;
+}
+
+.App {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background-color: #003c85;
+  padding: 1.12rem;
+  width: 100%;
+  height: 100%;
+  min-width: 24.5rem;
+  min-height: 53.12rem;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header img {
+  width: 350px;
+}
+
+header p {
+  margin-top: 0.625rem;
+  color: #E6E6FA;
+  font-size: 1rem;
+}
+
+.display {
+  position: sticky;
+  top: 0;
+  margin-top: 1.18rem;
+  background-color: #0157bf;
+  
+  display: flex;
+  width: 22.31rem;
+  height: 2.81rem;
+  border-radius: 0.625rem;
+  
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  
+  color: #fff;
+  box-shadow: 1px 2px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.line1 {
+  width: 100%;
+  height: 2px;
+  margin-top: 2rem;
+  background-color: #fff;
+}
+
+.addProduct {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 1.8rem;
+
+  min-width: 22.3em;
+
+  height: 12rem;
+  
+  background-color: #0157bf;
+  box-shadow: 1px 2px 1px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 0.625rem;
+}
+
+.addProduct p {
+  font-size: 1.5rem;
+  color: #fff;
+  margin-top: 0.7rem;
+  margin-bottom: 0.3rem;
+}
+
+.productName {
+  margin-bottom: 0.563rem;
+  margin-top: 0.438rem;
+  width: 100%;
+  padding-left: 5.5%;
+  padding-right: 5.5%;
+}
+
+.productName input {
+  width: 100%;
+  height: 2rem;
+}
+
+.priceAndQuantity {
+  width: 100%;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  margin-bottom: 1.20rem;
+}
+
+input {
+  border-radius: 0.625rem;
+  border: none;
+  padding-left: 1rem;
+}
+
+#quantity {
+  width: 41%; 
+  height: 2rem;
+}
+
+#price {
+  width: 10.875rem;
+  height: 2rem;
+  margin-left: 0.625rem;
+  
+}
+
+.addProductButtons {
+  display: flex;
+  width: 88%;
+  height: 2rem;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.addProductButtons > button {
+  width: 29%;
+  height: 2rem;
+  border-radius: 0.625rem;
+}
+
+#clear {
+  background-color: #c0a01e; 
+  font-weight: bold;
+  color: #fff;
+  border: none;
+}
+
+#add {
+  background-color: #058620;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+}
+
+.line2 {
+  width: 100%;
+  height: 2px;
+  margin-top: 1.5rem;
+  margin-bottom: 0.625rem;
+  background-color: #fff;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+main h2 {
+  color: #FFFFFF;
+  align-self: center;
+  margin-top: 1rem;
+  margin-bottom: 0.625rem;
+}
+
+.productsList {
+  display: flex;
+  flex-direction: column;
+  color: #FFFFFF;
+  border: none;
+  font-size: 1.25rem;
+  gap: .2rem;
+  padding: .8rem;
+  margin: .8rem;
+  background-color: #0157bf;
+  box-shadow: 1px 2px 1px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 1rem;
+}
+
+.nameAndButton {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #fff;
+}
+
+.qntPriceTotal {
+  display: flex;
+  justify-content: space-between;
+}
+
+.gridItemName {
+  width: 13.5rem;
+}
+
+.gridItemName p {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: #fff;
+}
+
+.removeProduct {
+  width: 6em;
+  border: none;
+  font-weight: bold;
+  border-radius: 1.5rem;
+  background-color: #C00000;
+  color: #fff;
+}
+
+.footer {
+  display: flex;
+  align-self: center;
+  width: 20em;
+  height: 2rem;
+  background-color: #c00000;
+  box-shadow: 1px 2px 1px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 0.625rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1em;
+  margin-bottom: 3.5rem;
+}
+
+.footer button {
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  padding: .5rem;
+  margin: 1rem;
+  border-radius: 1rem;
+  width: 10rem;
+  background-color: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+}
+
+footer a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: #FFFFFF;
+  width: 100%;
+}
+
+button {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 356px) {
+  .App {
+    min-height: 75rem;
+  }
+}
+
+@media only screen and (min-width: 550px) {
+  .App {
+    width: 34.375rem;
+    margin: auto;
+    
+    border-radius: 1rem;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.6);
+  }
+
+  body {
+    background-color: #494949;
+    padding: 2rem 0;
+  }
+}
