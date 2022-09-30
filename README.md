@@ -6,7 +6,7 @@
 
 ### 🛠  Descrição
 
-</br>
+</br> 
 
 O projeto tem como objetivo auxiliar na hora de fazer as compas, cadastrar os produtos adicionados ao carrinho e acompanhar em tempo real o valor total da compra.
 
